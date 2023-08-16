@@ -20,14 +20,15 @@
 
 #botao:hover{
     background-color: rgb(163, 168, 168);
-    animation: tremer .2s;       
+    animation: tremer .2s;
+         
 }
 
 @keyframes tremer{
-    0%{margin-left: 0;};
-    25%{margin-left: 7px;};
-    50%{margin-left: 0;};
-    75%{margin-left: -7px;};
-    100%{margin-left: 0;};
+    0% {margin-left: 0;}
+    25% {margin-left: 7px;}
+    50% {margin-left: 0;}
+    75% {margin-left: -7px;}
+    100% {margin-left: 0;}
 
 }

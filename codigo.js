@@ -29,7 +29,7 @@ function menu() {
 function cadastrar_cliente() {
     let x = "n";
     relatorio = "*-Relatório de Clientes-* <br>";
-};
+
 
 while (x.toUpperCase() != "S") {
     id = parseInt(prompt("Digite o ID do cliente"));
@@ -40,7 +40,7 @@ while (x.toUpperCase() != "S") {
         "NOME     : " + nome + "<br>" +
         "ENDEREÇO : " + endereco + "<br>" +
         "<br>+-----------------------------------+<br><br>"
-    confirme - prompt("Finalizar Cadastro S - para sim ou N - não ?");
+    confirme = prompt("Finalizar Cadastro S - para sim ou N - não ?");
 
     if (confirme.toUpperCase() == "S") {
         x = "S";
@@ -49,3 +49,4 @@ while (x.toUpperCase() != "S") {
     document.getElementById("relatorio").innerHTML="<p>" + relatorio + "</p>";
 
 }
+};
