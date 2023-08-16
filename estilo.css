@@ -1,0 +1,33 @@
+#titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f00909;
+    size: 70px;
+    text-align: center;
+}
+
+.botao_div{
+    display: flex;
+    justify-content: center;
+}
+
+#botao{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: #024d64;
+    width: 400px;
+    background-color: #d3caca;
+}
+
+#botao:hover{
+    background-color: rgb(163, 168, 168);
+    animation: tremer .2s;       
+}
+
+@keyframes tremer{
+    0%{margin-left: 0;};
+    25%{margin-left: 7px;};
+    50%{margin-left: 0;};
+    75%{margin-left: -7px;};
+    100%{margin-left: 0;};
+
+}
